@@ -27,11 +27,12 @@ a:hover{
 	text-decoration: none;
 }
 
+/*** HEADER ***/
+
 .logo{
 	max-width:500px !important;
 	width:100% !important;
 }
-
 .navbar{
 	background-color:#001E69;
 	margin-bottom:0;
@@ -52,13 +53,28 @@ a:hover{
 .navbar .active a{
 	background-color:#CA0000 !important;
 }
+.navbar .active ul.dropdown-menu li a{
+	background-color:transparent !important;
+}
+.dropdown-menu{
+	background-color:#001E69;
+}
+/*** HEADER END ***/
 
 .row{
 	margin:0;
 }
 #content{
 	background-color:white;
+	padding:0;
 }
+body.home #content{
+	background-color:transparent;
+}
+
 #sidebar1{
-	margin-top:35px;
+	margin-top:45px;
 }
+
+/*** FOOTER ***/
+

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<markers>
+  <marker>
+    <marker_id>3</marker_id>
+    <map_id>1</map_id>
+    <title></title>
+    <address>14 Technology Drive, Steubenville, OH 43952</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd></linkd>
+    <lat>40.403477</lat>
+    <lng>-80.716024</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+</markers>
