@@ -38,7 +38,7 @@
 			<div class="row">
 				<div class="container">
 					<div class="col-sm-6">
-						<img class="logo" src="<?php echo get_site_url(); ?>/wp-content/uploads/2014/06/BullyLogo2010-update.png">
+						<a href="<?php echo get_site_url(); ?>"><img class="logo" src="<?php echo get_site_url(); ?>/wp-content/uploads/2014/06/BullyLogo2010-update.png"></a>
 					</div>
 					<div class="col-sm-6">
 

@@ -56,9 +56,19 @@ a:hover{
 .navbar .active ul.dropdown-menu li a{
 	background-color:transparent !important;
 }
-.dropdown-menu{
+.navbar-collapse{
+	max-height:none;
+}
+.navbar-collapse.in{
+	overflow: visible;
+}
+.navbar ul.dropdown-menu{
 	background-color:#001E69;
 }
+.navbar ul.dropdown-menu li a{
+	font-size:16px;
+}
+
 /*** HEADER END ***/
 
 .row{
@@ -67,6 +77,7 @@ a:hover{
 #content{
 	background-color:white;
 	padding:0;
+	overflow:auto;
 }
 body.home #content{
 	background-color:transparent;
@@ -76,5 +87,25 @@ body.home #content{
 	margin-top:45px;
 }
 
+.home-boxes{
+	padding:20px 0;
+}
+
 /*** FOOTER ***/
 
+footer{
+	background-color:#001E69;
+}
+footer h4{
+	font-size: 26px;
+	color: white;
+	font-weight: bold;
+	margin-top: 25px;
+}
+footer p{
+	background-color:white;
+	text-align:center;
+	color:#707070;
+	padding:10px 0;
+	margin:0;
+}

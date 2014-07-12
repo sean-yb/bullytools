@@ -12,7 +12,25 @@ Template Name: Homepage
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
-					
+					<div class="row home-boxes">
+						<div class="container">
+							<div class="col-sm-4">
+								<h1>Heading</h1>
+								<img>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+							</div>
+							<div class="col-sm-4">
+								<h1>Heading</h1>
+								<img>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+							</div>
+							<div class="col-sm-4">
+								<h1>Heading</h1>
+								<img>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+							</div>
+						</div>
+					</div>
 					
 					<?php endwhile; ?>	
 					

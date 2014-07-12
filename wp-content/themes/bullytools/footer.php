@@ -2,7 +2,6 @@
 			<footer role="contentinfo">
 				<div class="container">
 					<div id="inner-footer" class="clearfix">
-			          <hr />
 			          <div id="widget-footer" class="clearfix row">
 			            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer1') ) : ?>
 			            <?php endif; ?>
@@ -16,10 +15,11 @@
 							<?php //wp_bootstrap_footer_links(); // Adjust using Menus in Wordpress Admin ?>
 						</nav>
 				
-						<p class="attribution">&copy; <?php echo date('Y');?> <?php bloginfo('name'); ?></p>
+						
 					
 					</div> <!-- end #inner-footer -->
 				</div>
+				<p class="attribution">&copy; <?php echo date('Y');?> <?php bloginfo('name'); ?></p>
 			</footer> <!-- end footer -->
 				
 		<!--[if lt IE 7 ]>
