@@ -31,7 +31,7 @@ Template Name: Homepage
 
 				<div class="container">
 
-					<div class="col-sm-8">
+					<div class="col-sm-9">
 
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 						

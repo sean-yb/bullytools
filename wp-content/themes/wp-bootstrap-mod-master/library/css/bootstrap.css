@@ -362,7 +362,7 @@ ul.nav .dropdown > .dropdown-menu .caret {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #eeeeee;
+  background-color: #ca0000;
   border-color: #428bca;
 }
 .nav .nav-divider {
@@ -394,7 +394,7 @@ ul.nav .dropdown > .dropdown-menu .caret {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #555555;
-  background-color: #ffffff;
+  background-color: white;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -440,7 +440,7 @@ ul.nav .dropdown > .dropdown-menu .caret {
   .nav-tabs.nav-justified > .active > a,
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #ffffff;
+    border-bottom-color: white;
   }
 }
 .nav-pills > li {
@@ -508,7 +508,7 @@ ul.nav .dropdown > .dropdown-menu .caret {
   .nav-tabs-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus {
-    border-bottom-color: #ffffff;
+    border-bottom-color: white;
   }
 }
 .tab-content > .tab-pane {
@@ -1062,7 +1062,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #555555;
-  background-color: #ffffff;
+  background-color: white;
   background-image: url('http://localhost/bullytools/wp-content/uploads/2014/06/steel3.png');
   background-repeat: repeat;
   background-position: top left;
@@ -1071,7 +1071,7 @@ body {
 }
 #main .container {
   padding-top: 10px;
-  background-color: #ffffff;
+  background-color: white;
 }
 input,
 button,
@@ -1095,7 +1095,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
-  background-color: #ffffff;
+  background-color: white;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1241,7 +1241,7 @@ h6,
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color: #ca0000;
 }
 h1 small,
 h2 small,
@@ -2298,7 +2298,7 @@ td {
   border-top: 2px solid #bfbfbf;
 }
 .table .table {
-  background-color: #ffffff;
+  background-color: white;
 }
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
@@ -4578,7 +4578,7 @@ a.list-group-item.active > .badge,
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  background-color: #ffffff;
+  background-color: white;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -6810,15 +6810,27 @@ li.previous a:hover:before {
   box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
 }
 /* widget styles */
-.widget {
+.sidebar .widget {
   margin-bottom: 18px;
 }
-.widgettitle {
+.sidebar .widget .widgettitle {
   margin: 20px 0;
   text-align: center;
   padding: 10px 0;
-  border-top: 2px solid #555555;
-  border-bottom: 2px solid #555555;
+  border-top: 2px solid #ca0000;
+  border-bottom: 2px solid #ca0000;
+  color: #ca0000;
+}
+#footer .widget {
+  margin-bottom: 18px;
+}
+#footer .widget .widgettitle {
+  margin: 20px 0;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  color: white;
 }
 #tag-cloud {
   margin-bottom: 18px;

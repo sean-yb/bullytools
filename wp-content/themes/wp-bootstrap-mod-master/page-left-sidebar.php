@@ -12,7 +12,7 @@ Template Name: Left Sidebar Page
 
 					<?php get_sidebar(); // sidebar 1 ?>
 
-					<div class="col-sm-8">
+					<div class="col-sm-9">
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 						

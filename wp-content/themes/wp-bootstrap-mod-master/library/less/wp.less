@@ -371,18 +371,33 @@ li.previous a:hover:before{
 }
 
 /* widget styles */
-
-.widget{
-	margin-bottom: 18px;
+.sidebar{
+	.widget{
+		margin-bottom: 18px;
+		.widgettitle{
+			margin: 20px 0;
+			text-align: center;
+			padding: 10px 0;
+			border-top: 2px solid @bully-red;
+			border-bottom: 2px solid @bully-red;
+			color: @bully-red;
+		}
+	}
+}
+#footer{
+	.widget{
+		margin-bottom: 18px;
+		.widgettitle{
+			margin: 20px 0;
+			text-align: center;
+			padding: 10px 0;
+			border-top: 2px solid white;
+			border-bottom: 2px solid white;
+			color: white;
+		}
+	}
 }
 
-.widgettitle{
-	margin: 20px 0;
-	text-align: center;
-	padding: 10px 0;
-	border-top: 2px solid @gray;
-	border-bottom: 2px solid @gray;	
-}
 
 #tag-cloud{
 	margin-bottom: 18px;
